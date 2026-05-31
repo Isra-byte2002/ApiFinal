@@ -34,6 +34,11 @@ const opcionesSwaggerJsDoc = {
 // Paso 3 del PDF: crear objeto OpenApi y montar middleware
 const swaggerDocs = swaggerJsDoc(opcionesSwaggerJsDoc);
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocs, {
+  customCssUrl: 'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui.min.css',
+  customJs: [
+    'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui-bundle.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui-standalone-preset.min.js'
+  ],
   customSiteTitle: 'API Usuarios - Documentacion',
   swaggerOptions: {
     persistAuthorization: true
