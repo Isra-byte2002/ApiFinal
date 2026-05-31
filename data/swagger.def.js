@@ -13,7 +13,7 @@ Esta API permite realizar operaciones **CRUD** sobre usuarios y cuenta con auten
 ### Flujo de uso recomendado:
 1. Registra un usuario con \`POST /api/usuarios\`
 2. Inicia sesión con \`POST /api/auth/login\` para obtener el **token JWT**
-3. Usa el token en el botón **Authorize 🔒** (formato: \`Bearer <token>\`)
+3. Usa el token en el botón **Authorize** (formato: \`Bearer <token>\`)
 4. Ya puedes usar los endpoints protegidos
 
 ### Credenciales de prueba:
