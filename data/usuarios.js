@@ -1,7 +1,7 @@
 const { v4: uuidv4 } = require('uuid');
 const bcrypt = require('bcryptjs');
 
-// Base de datos en memoria (funciona perfectamente en Vercel)
+// Base de datos en memoria
 const usuarios = [
   {
     id: uuidv4(),

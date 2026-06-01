@@ -23,7 +23,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// Configuracion Swagger (siguiendo estructura del PDF - paso 5)
+// Configuracion Swagger
 const opcionesSwaggerJsDoc = {
   definition: definicionSwagger,
   apis: [
