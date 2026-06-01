@@ -3,7 +3,7 @@ const path = require('path');
 const definicionSwagger = {
   openapi: '3.0.0',
   info: {
-    title: 'API de Usuarios',
+    title: 'API de Usuarios de ISRAEL',
     version: '1.0.0',
     description: `
 ## API REST de Gestión de Usuarios
